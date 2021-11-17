@@ -1,0 +1,45 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{929DDAFE-069A-4D5E-ACA1-C66F8C83FE17}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Catalog", "Catalog", "{5E133F67-9658-4705-BA65-7C9DC17018F7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NewFolder1", "NewFolder1", "{349F003C-09BA-4A48-85DE-A1CDE46781AD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Catalog.API", "Services\Catalog\Catalog.API\Catalog.API.csproj", "{A2363D54-345E-4D30-95F6-13632206AB2D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Shared", "Shared", "{49DAA68A-0989-4C10-90F1-A506A0700002}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SharedLibrary", "Shared\Shared\SharedLibrary.csproj", "{A19A66A1-168E-41F8-A034-7E76080DCBA9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A2363D54-345E-4D30-95F6-13632206AB2D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A2363D54-345E-4D30-95F6-13632206AB2D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A2363D54-345E-4D30-95F6-13632206AB2D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A2363D54-345E-4D30-95F6-13632206AB2D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A19A66A1-168E-41F8-A034-7E76080DCBA9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A19A66A1-168E-41F8-A034-7E76080DCBA9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A19A66A1-168E-41F8-A034-7E76080DCBA9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A19A66A1-168E-41F8-A034-7E76080DCBA9}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{5E133F67-9658-4705-BA65-7C9DC17018F7} = {929DDAFE-069A-4D5E-ACA1-C66F8C83FE17}
+		{349F003C-09BA-4A48-85DE-A1CDE46781AD} = {929DDAFE-069A-4D5E-ACA1-C66F8C83FE17}
+		{A2363D54-345E-4D30-95F6-13632206AB2D} = {5E133F67-9658-4705-BA65-7C9DC17018F7}
+		{A19A66A1-168E-41F8-A034-7E76080DCBA9} = {49DAA68A-0989-4C10-90F1-A506A0700002}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E1E972FB-659D-4FF3-8E64-CAC5F676755A}
+	EndGlobalSection
+EndGlobal
